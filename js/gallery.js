@@ -20,5 +20,5 @@ function unDo() {
    back to the original text.  You can use the html code to see what that original text was
    */
     document.getElementById("image").innerHTML = old
-    document.getElementById("image").style.background = "#8e68ff";
+    document.getElementById("image").style.background = "#3500d5";
 }
