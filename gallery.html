@@ -3,27 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/gallery.css">
     <script src="js/gallery.js"></script>
 </head>
 
-<body>
-
+<body onload="addTabIndex()">
 
     <div id="image">
         Hover over an image below to display here.
     </div>
 
-    <img class="preview" alt="molecule"
-        src="./css/1.jpg" onmouseover="upDate(this)"
-        onmouseout="unDo()">
+    <img class="preview" alt="molecule" src="./css/1.jpg" 
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
 
     <img class="preview" alt="cad" src="./css/2.jpg"
-        onmouseover="upDate(this)" onmouseout="unDo()">
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
 
-    <img class="preview" src="./css/3.jpg" alt="lrt"
-        onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="lrt" src="./css/3.jpg"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="description of image 4" src="./css/4.jpg"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="description of image 5" src="./css/5.jpg"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
+
+    <img class="preview" alt="description of image 6" src="./css/6.jpg"
+        onmouseover="upDate(this)" onmouseout="unDo()"
+        onfocus="upDate(this)" onblur="unDo()">
 
 </body>
 
